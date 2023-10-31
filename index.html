@@ -1,40 +1,56 @@
 <!DOCTYPE html>
-<!-- saved from url=(0071)https://moodle.ut.ee/pluginfile.php/1062787/mod_assign/intro/index.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Lehe päis</title>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Lehe päis</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body data-new-gr-c-s-check-loaded="14.1134.0" data-gr-ext-installed="">
 
-<h1>Sydney vaatamisväärsused</h1>
-<p>Siin leheküjel tutvustan Syndey linna kuulsamaid vaatamisväärsuseid. Lisaks anna ka huvitavaid fakte iga kuulsama vaatamisväärsuse kohta.</p>
+<body>
 
-<br></br>
+    <!-- Flex container -->
+    <div style="display: flex;">
 
-<a href="https://www.airbnb.com.ee/sydney-australia/things-to-do">LINK</a>
+        <!-- Esimene tulp -->
+        <div class="column" style="flex: 1; padding-right: 20px;">
+            <h1>Sydney vaatamisväärsused</h1>
+            <p>Siin leheküjel tutvustan Syndey linna kuulsamaid vaatamisväärsuseid. Lisaks anna ka huvitavaid fakte iga kuulsama vaatamisväärsuse kohta.</p>
+            <a href="https://www.airbnb.com.ee/sydney-australia/things-to-do">LINK</a>
+        </div>
 
-</a><img src="https://www.agoda.com/wp-content/uploads/2020/03/Places-to-visit-in-Sydney-Sydney-Opera-House.jpg">
-<h2>Vaatamisväärsused</h2>
-<ul>
-    <li>Sydney opera house</li>
-    <li>Sydney harbour bridge</li>
-    <li>Royal botanic garden</li>
- </ul>
- 
- <table border="1"> <!-- border="1" on lisatud näitlikkuse eesmärgil, et tabeli piire näha oleks. -->
-    <!-- Esimene rida -->
-    <tr>
-        <td>Rida 1, Veerg 1</td>
-        <td>Rida 1, Veerg 2</td>
-        <td>Rida 1, Veerg 3</td>
-    </tr>
-    <!-- Teine rida -->
-    <tr>
-        <td>Rida 2, Veerg 1</td>
-        <td>Rida 2, Veerg 2</td>
-        <td>Rida 2, Veerg 3</td>
-    </tr>
-</table>
+        <!-- Teine tulp -->
+        <div class="column" style="flex: 1; padding-left: 20px;">
+            <img src="https://www.agoda.com/wp-content/uploads/2020/03/Places-to-visit-in-Sydney-Sydney-Opera-House.jpg">
+            <h2>Vaatamisväärsused</h2>
+            <ul>
+                <li>Sydney opera house</li>
+                <li>Sydney harbour bridge</li>
+                <li>Royal botanic garden</li>
+            </ul>
 
-<a href="lamp.html">Klõpsa siin, et avada uus lehekülg</a>
+            <table border="1">
+                <!-- Esimene rida -->
+                <tr>
+                    <td>Rida 1, Veerg 1</td>
+                    <td>Rida 1, Veerg 2</td>
+                    <td>Rida 1, Veerg 3</td>
+                </tr>
+                <!-- Teine rida -->
+                <tr>
+                    <td>Rida 2, Veerg 1</td>
+                    <td>Rida 2, Veerg 2</td>
+                    <td>Rida 2, Veerg 3</td>
+                </tr>
+            </table>
+        </div>
+
+    </div> <!-- Flex container lõpp -->
+
+    <div class="clearfix"></div>
+
+    <a href="lamp.html">Klõpsa siin, et avada uus lehekülg</a>
 
 </body>
+
+</html>
